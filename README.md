@@ -23,9 +23,7 @@ This repository shows the steps to reproduce these attacks and defenses. There w
 - [ ] DPSGD Code on FL training
 
 ## Instructions
-To use this project, 
-
-
+To perform a site inference attack, please see the directory fed_privacy_attack/. First install the prereqs (see below) and download the necessary data from Drive (note that this is temporary as we plan to move to AWS). If one needs help with data, please contact edhlee@stanford.edu or edward.heesung.lee@gmail.com. Next, we will run inference attacks on different trained model files. Please access the [Data](https://drive.google.com/file/d/1fySrSXNZAkPedDmncTAtuhqm52arroiV/view?usp=drive_link), and unzip in data/.
 <p align="center">
   <img src="https://github.com/edhlee/FLPrivacy/blob/main/logos/privacy_attack.png" width="75%" height="auto"  alt="21 site attack"/>
 </p>
