@@ -1,0 +1,11 @@
+keras==2.10.0
+Keras-Preprocessing==1.1.2
+pandas==1.1.5
+scikit-image==0.19.3
+scikit-learn==1.0.2
+scipy==1.7.3
+tensorflow==2.10.0
+tensorflow-addons==0.18.0
+tensorflow-datasets==4.5.2
+tensorflow-estimator==2.10.0
+tensorflow-privacy==0.8.4
