@@ -29,9 +29,13 @@ To perform a site inference attack, please see the directory fed_privacy_attack/
 </p>
 
 
-### Prerequisites
+Please see the version of tensorflow used in the requirements.txt. Or set up an environment and run the following. The typical install time is a few minutes. The typical run time on a Volta or higher GPU is 10 minutes for ./sample_train_attack.sh on 4 Volta GPUs (10% exposed training data per site). In the screenshot below, you will see the attack results after the adversary trains on the CDS model, Fed learning model trained with DPSGD, and a randomly initialized model.
 
-See the version of tensorflow used in the requirements.txt. Or set up an environment and run the following. The typical install time is a few minutes. The typical run time on a Volta or higher GPU is 10 minutes for ./sample_train_attack.sh on 4 Volta GPUs (10% exposed training data per site).
+
+ <p align="center">
+   <img src="https://github.com/edhlee/FLPrivacy/blob/main/logos/terminal_screenshot_privacy.png" width="75%" height="auto"  alt="21 site attack"/>
+ </p>
+
 
 ```bash
 pip install -r requirements.txt
